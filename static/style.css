@@ -1,0 +1,100 @@
+body{
+    background: #757575;
+}
+
+.gemeentes{
+  width: 60%;
+}
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 20%; /* Full-width */
+  height: 25px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.column li{
+    color: black;
+  text-decoration: none;
+  list-style: none;
+}
+
+
+
+header{
+  background: floralwhite;
+}
+
+header::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.header_img{
+  float: left;
+  width: 25%
+}
+
+nav{
+  float: right;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li{
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 25px;
+
+}
+
+nav ul li a{
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover{
+  color: red;
+}
+
+.header_cont{
+  width: 80%;
+  margin: 0 auto;
+}
+
+body li{
+
+}
